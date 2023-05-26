@@ -1,0 +1,156 @@
+body {
+  font-family: "Borwal", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.checked {
+  color: orange;
+}
+
+.visitor-sec{
+  margin-left: 50px;
+}
+
+.visitor-heading {
+  font-size: 2rem;
+  margin-top: 50px;
+}
+
+.visitor-sec {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.visitor-subheading {
+  font-size: 1rem;
+}
+
+.visitor-poster {
+  width: 15rem;
+}
+
+.visitor-row {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.visitor-row-txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.visitor-tags {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.visitor-tags p {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px 16px;
+  text-align: center;
+}
+
+.visitor-desc {
+  max-width: 60ch;
+}
+
+.crew-members {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.crew-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.crew-image {
+  width: 230px;
+  height: 230px;
+  border-radius: 100%;
+}
+
+.write-review {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #E5E5E5;
+  width: fit-content;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.write-review input {
+  height: 28px;
+  padding: 5px;
+  width: 91vw;
+  background-color: #E5E5E5;
+  border: none;
+  border-radius: 5px;
+}
+
+.write-review input:focus{
+  outline: none;
+}
+
+.more-options {
+  height: 28px;
+  display: flex;
+  align-items: center;
+  background-color: #E5E5E5;
+}
+
+.reviews-div {
+  background-color: #E5E5E5;
+  padding: 25px;
+  margin: 20px 20px 20px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.reviews-title-date {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.reviews-rating-more {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bottom-section {
+  margin-left: -50px;
+  background-color: #000000;
+  text-align: center;
+  padding: 50px 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.contact-me{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.copyright {
+  color: #E5E5E5;
+}
