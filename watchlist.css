@@ -1,0 +1,58 @@
+body {
+    background-color: #000;
+  }
+  
+  .container {
+    max-width: 150px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  #movie-input {
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  #add-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  #watchlist {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #watchlist li {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  #watchlist li .movie-title {
+    flex-grow: 1;
+    margin-right: 10px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  #watchlist li .remove-btn {
+    background-color: #FF5722;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+  
