@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="nav.css" />
     <link rel="stylesheet" href="visitor.css" />
+    <link rel="stylesheet" href="write review.css" />
     <link rel="icon" href="Website Logo copy.jpg">
     <title>Cine-JARS-Visitor</title>
   </head>
@@ -39,7 +40,7 @@
 
       <div class="nav-btns">
         <button>Shows/Movies</button>
-        <button>Watchlist</button>
+        <button> <a href="watchlist.html" style="color: black; text-decoration: none;">Watchlist</a></button>
       </div>
     </nav>
     <main class="visitor-main">
@@ -149,11 +150,18 @@
       <main class = "Reviews">
         <h3><u>REVIEWS</u></h3>
 
-       <div class="write-review">
-        <input type="text" src="" alt="" placeholder="Write reviews">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 3c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 14c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0-7c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"/></svg>
-    
-       </div>
+        <div id="review-container">
+          <form id="review-form">
+            <div id="review-input-container">
+              <textarea id="review-textarea" placeholder="Write your review"></textarea>
+              <button id="send-button" type="submit"><i class="fa fa-paper-plane"></i>Submit</button>
+              <button id="edit-button" onclick="editReview()"><i class="fa fa-edit"></i></button>
+            </div>
+         
+        </div>
+        
+        
+        
 
         <div class="reviews-div">
           <div class="reviews-rating-more">
@@ -219,12 +227,9 @@
           <a class="footer-link" href="https://github.com/impending321/Cine-JARS">GitHub</a>
           </div>
           <div>
-          <p class="copyright">@Tam Cine-JARS</p>
+          <p class="copyright">@Team Cine-JARS</p>
         </div>
       </section>
-  
-      </body>
-      </html>
-        
   </body>
+  <script type="module" src="write review.js"></script>
 </html>
