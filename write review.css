@@ -1,0 +1,45 @@
+#review-container {
+    position: relative;
+  }
+  
+  #review-form {
+    margin-bottom: 10px;
+  }
+  
+  #review-textarea {
+    width: 100%;
+    height: 10px;
+    padding: 10px;
+    resize: vertical;
+  }
+  
+  #send-button, #edit-button {
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px;
+    height: 31px;
+    text-align: center;
+    align-content: center;
+  }
+  
+  #send-button {
+    background-color: #4c4d4c;
+    color: white;
+    border: none;
+  }
+  
+  #edit-button {
+    align-items: center;
+    right: 0;
+    top: 0;
+    background-color: #ffffff;
+    color: rgb(61, 56, 56);
+    border: none;
+  }
+  
+  .fa-paper-plane, .fa-edit {
+    display: inline-block;
+    align-self: center;
+    margin-right: 5px;
+  }
+  

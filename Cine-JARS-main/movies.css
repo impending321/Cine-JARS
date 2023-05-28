@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;400;500;600;700;800");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Barlow", sans-serif;
+}
+
+.movie-banner{
+  display: flex;
+  width: 98vw;
+  justify-content: center;
+}
+
+.movies {
+  width: 100vw;
+}
+
+.top-movies-heading {
+  padding: 50px;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.movies-details {
+  display: flex;
+  flex-direction: row;
+  margin: 50px 0px 50px 50px;
+  gap: 50px;
+}
+
+.movie-poster {
+  width: 10rem;
+}
+
+.movie-text-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.movie-tags-div {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.movie-tags-div p {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px 16px;
+  text-align: center;
+}
+
+.movie-small-desc {
+  max-width: 60ch;
+}
+
+.movie-creator-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.movie-cast-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.movie-rating {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}

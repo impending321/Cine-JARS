@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="nav.css" />
     <link rel="stylesheet" href="visitor.css" />
+    <link rel="stylesheet" href="write review.css" />
     <link rel="icon" href="Website Logo copy.jpg">
-    <title>Panic At The movies-Visitor</title>
+    <title>Cine-JARS-Visitor</title>
   </head>
   <body>
     <nav class="nav">
       <div class="hamburger">
-        <img src="hamburger.png" alt="" />
+        <button> <a href="button.html" style="text-decoration: none; background-color: black; border: none"><img src="hamburger.png" ></a></button>
       </div>
 
       <div class="search">
@@ -39,7 +40,7 @@
 
       <div class="nav-btns">
         <button>Shows/Movies</button>
-        <button>Watchlist</button>
+        <button> <a href="watchlist.html" style="color: black; text-decoration: none;">Watchlist</a></button>
       </div>
     </nav>
     <main class="visitor-main">
@@ -74,8 +75,8 @@
             <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
 <span class="fa fa-star half checked"></span>
-<span class="fa fa-star"></span>
             <p>4.5/5</p>
           </div>
 
@@ -149,11 +150,18 @@
       <main class = "Reviews">
         <h3><u>REVIEWS</u></h3>
 
-       <div class="write-review">
-        <input type="text" src="" alt="" placeholder="Write reviews">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 3c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 14c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0-7c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"/></svg>
-    
-       </div>
+        <div id="review-container">
+          <form id="review-form">
+            <div id="review-input-container">
+              <textarea id="review-textarea" placeholder="Write your review"></textarea>
+              <button id="send-button" type="submit"><i class="fa fa-paper-plane"></i>Submit</button>
+              <button id="edit-button" onclick="editReview()"><i class="fa fa-edit"></i></button>
+            </div>
+         
+        </div>
+        
+        
+        
 
         <div class="reviews-div">
           <div class="reviews-rating-more">
@@ -176,18 +184,18 @@
         
         <div class="reviews-div">
           <div class="reviews-rating-more">
-            <span>&#11088 4.5/5</span>
+            <span>&#11088 4/5</span>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 3c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 14c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0-7c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"/></svg>
 
           </div>
 
           <div class="reviews-title-date">
-            <h3>It's losing me</h3>
-            <span>12 November 2022</span>
+            <h3>Better than expected!</h3>
+            <span>21 januaury 2023</span>
           </div>
 
           <div class="review-content">
-            <div>It's losing me with each episode honestly.It started strong and I was really intrigued to see where things were going to venture to, but the last few episodes it just feels like the series has got itself stuck in a "limbo" where nothing is really happening and events keep repeating themselves; it's a real drag.If it is building toward something I hope it gets there fast because I'm about ready to drop this series. I like a slow-burner so long as the story is actually going somewhere, but The Peripheral just feels like it's out of ideas already.If it carries on with the constant "intense conversations" and attempted murders whilst the storyline remains in its seemingly never-ending stagnant position, then I give up.
+            <div>I have to say that The Peripheral was definitely better than I thought it was going to be. This show had me hooked from the beginning. I wasn't expecting so much action. The writing and special effects were also great making this one of the better sci-fi series of the entire year. I'm not saying it's the best sci-fi series this year but it's definitely up there. Some people are saying the story is a little hard to follow but I didn't find that to be true at all. You definitely have to pay attention and if you do that it's fine. It's just not a show where you can be doing other things and not give your full attention. Jack Reynor and Chloe Grace Moretz were both excellent as the leads here. I can't wait for season two.
             </div>
           </div>
         </div>
@@ -195,18 +203,18 @@
         
         <div class="reviews-div">
           <div class="reviews-rating-more">
-            <span>&#11088 4.5/5</span>
+            <span>&#11088 3.9/5</span>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 3c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 14c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0-7c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"/></svg>
 
           </div>
 
           <div class="reviews-title-date">
-            <h3>It's losing me</h3>
-            <span>12 November 2022</span>
+            <h3>Solid Sci-fi Series!</h3>
+            <span>2 march 2023</span>
           </div>
 
           <div class="review-content">
-            <div>It's losing me with each episode honestly.It started strong and I was really intrigued to see where things were going to venture to, but the last few episodes it just feels like the series has got itself stuck in a "limbo" where nothing is really happening and events keep repeating themselves; it's a real drag.If it is building toward something I hope it gets there fast because I'm about ready to drop this series. I like a slow-burner so long as the story is actually going somewhere, but The Peripheral just feels like it's out of ideas already.If it carries on with the constant "intense conversations" and attempted murders whilst the storyline remains in its seemingly never-ending stagnant position, then I give up.
+            <div>I just finished the first season of The Peripheral and it was so much better than I was expecting. I never read the books, or even heard of them for that matter, so I had no idea what the story was about. Chloe Grace Moretz and Jack Reynor are both great in their lead roles. This is a sci-fi series that's both original and exciting. The storytelling will keep you interested and make you actually care about what happens to these characters. You do have to pay attention because it could get a little complicated but not bad. The visuals are also great. You can tell they put some money into this show. I'm really looking forward to seeing where this series goes.
             </div>
           </div>
         </div>
@@ -219,12 +227,9 @@
           <a class="footer-link" href="https://github.com/impending321/Cine-JARS">GitHub</a>
           </div>
           <div>
-          <p class="copyright">@Tam Cine-JARS</p>
+          <p class="copyright">@Team Cine-JARS</p>
         </div>
       </section>
-  
-      </body>
-      </html>
-        
   </body>
+  <script type="module" src="write review.js"></script>
 </html>

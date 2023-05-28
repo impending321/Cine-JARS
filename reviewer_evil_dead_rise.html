@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="reviewer.css" />
+    <link rel="stylesheet" href="write review.css" />
+    <link rel="icon" href="logo.png">
+    <title>Cine-JARS-Visitor</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="hamburger">
+        <button> <a href="button.html" style="text-decoration: none; background-color: black; border: none;"><img src="hamburger.png" ></a></button>
+      </div>
+
+      <div class="search">
+        <select name="" id="" class="search-filter">
+          <option value="All" selected>All</option>
+          <option value="A-Z">A-Z</option>
+          <option value="Title">Title</option>
+          <option value="Rating">Rating</option>
+          <option value="Date">Date</option>
+          <option value="Genre">Genre</option>
+          <option value="Director">Director Name</option>
+          <option value="Actor">Actor Name</option>
+        </select>
+
+        <input
+          class="search-bar"
+          type="text"
+          placeholder="Search to read more twist in  your life"
+          name=""
+          id=""
+        />
+      </div>
+
+      <div class="nav-btns">
+        <button>Shows/Movies</button>
+        <button> <a href="watchlist.html" style="color: black; text-decoration: none;">Watchlist</a></button>
+      </div>
+    </nav>
+    <main class="visitor-main">
+    <section class="visitor-sec">
+      <div class="visitor-heading">
+        <h1>Evil Dead Rise</h1>
+      </div>
+
+      <div class = "visitor-subheading">
+        <span>·Movie</span> 
+        <span>·2023</span>
+        <span>·1</span>
+      </div>
+
+      <div class="visitor-row">
+        <div>
+          <img 
+          class="visitor-poster"
+            src="Evil_dad_rise.jpg"
+            alt=""
+          />
+        </div>
+
+        <div class="visitor-row-txt">
+          <div class="visitor-tags">
+            <p>Horror</p>
+            <p>Mystery</p>
+            <p>Sci-Fi</p>
+          </div>
+
+          <div>
+            <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star half checked"></span>
+<span class="fa fa-star"></span>
+            <p>3.9/5</p>
+          </div>
+
+          <div class="visitor-desc">
+            <p>
+              A twisted tale of two estranged sisters whose reunion is cut short by the rise of flesh-possessing demons, thrusting them into a primal battle for survival as they face the most nightmarish version of family imaginable.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="visitor-creator-cast-div">
+        <div class="visitor-creator-div">
+          <p><b>Creator:</b> Lee Cronin</p>
+        </div>
+        <div class="visitor-cast-div">
+          <p><b>Starring:</b>Rob Tapert</p>
+        </div>
+      </div>
+
+      <div class="details">
+        <h3><u>DETAILS</u></h3>
+        <p><b>Release date :</b> April 21, 2023</p>
+        <p><b>Country of Origin :</b> United States</p>
+        <p><b>Language :</b> English</p>
+        <p><b>Filming locations :</b>Was-USA</p>
+      </div>
+    
+      <div class = "Crew and Cast"></div>
+      <h3><u>CREW AND CASTS</u></h3> 
+      <div class="crew-members">
+        
+        <div class = "crew-details">
+        <img class="crew-image" src="mira.png">
+        <div class="crew-txt-details">
+          <p><b>	Mirabai Pease</b></p>
+          <p>Teresa</p>
+        </div>  
+      </div>
+      <div class = "crew-details">
+        <img class="crew-image" src="lily.jpeg"></img>
+       
+        <div class="crew-txt-details">
+          <p><b>Lily Sullivan</b></p>
+          <p>Beth</p>
+        </div> 
+      </div>
+      <div class = "crew-details">
+        <img class="crew-image" src="rich.jpg"></img>
+        <div class="crew-txt-details">
+          <p><b>Richard Crouchley</b></p>
+          <p>Caleb</p>
+        </div> 
+      </div>
+      <div class = "crew-details">
+        <img class="crew-image" src="anna.jpeg"></img>
+        <div class="crew-txt-details">
+        <p><b>	Anna-Maree Thomas</b></p>
+        <p>Jessica</p>
+      </div> 
+      </div>
+    </div>
+      <!-- reviews section complete -->
+      <main class = "Reviews">
+        <h3><u>REVIEWS</u></h3>
+        <div id="review-container">
+          <form id="review-form">
+            <div id="review-input-container">
+              <textarea id="review-textarea" placeholder="Write your review"></textarea>
+              <button id="send-button" type="submit"><i class="fa fa-paper-plane"></i>Submit</button>
+              <button id="edit-button" onclick="editReview()"><i class="fa fa-edit"></i></button>
+            </div>
+         
+        </div>
+
+        <div class="reviews-div">
+          <div class="reviews-rating-more">
+            <span>&#11088 2/5</span>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 3c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 14c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0-7c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"/></svg>
+
+          </div>
+
+          <div class="reviews-title-date">
+            <h3>I can't explain why I didn't like this more</h3>
+            <span>12 April 2023</span>
+          </div>
+
+          <div class="review-content">
+            <div>I haven't seen any of the previous Evil Dead movies. I judged this solely on its own merits. It's well made in many ways. It starts with a really cool opening scene that had my jaw dropped. And an epic opening title shot that reminded me of Fury Road's.
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="reviews-div">
+          <div class="reviews-rating-more">
+            <span>&#11088 3/5</span>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 3c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 14c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0-7c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"/></svg>
+
+          </div>
+
+          <div class="reviews-title-date">
+            <h3>Cronin fails to rise to the occasion.</h3>
+            <span>21 April 2023</span>
+          </div>
+          After all the hype, the rave reviews, the revealing trailers, and the silly reaction videos (God, how I hate those), Evil Dead Rise turns out to be exactly what I expected: a serviceable sequel, nothing more, nothing less. Like the remake before it, it delivers on the gore, but is lacking in originality and likeable characters.
+
+          The film takes place in a rundown apartment building, home to single mother Ellie (Alyssa Sutherland) and her three obnoxious brats, Bridget (Gabrielle Echols), Danny (Morgan Davies) and Kassie (Nell Fisher). 
+          <div class="review-content">
+            <div>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="reviews-div">
+          <div class="reviews-rating-more">
+            <span>&#11088 4/5</span>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 3c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 14c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0-7c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"/></svg>
+
+          </div>
+
+          <div class="reviews-title-date">
+            <h3>Evil Dead Sink</h3>
+            <span>13 May 2023</span>
+          </div>
+
+          <div class="review-content">
+            <div>First, I am a big fan of all the previous movies, but this one is weak. The cast is bland. I didn't root for any of the female characters. To add, I was wondering around 30 minutes about the sex of the "DJ".... Need to check on Imdb lol. Second, a 4-5 years old as a bad ass looked pretty bad. Terrible idea.
+
+              Third, the original and even the remake, had a great script and a great execution. Here everything looked overacted. Even the CGI effects looked cheap and the excessive gore doesn't improve the lack of intensity or interest.
+            </div>
+          </div>
+        </div>
+      </main>
+        
+      <section class="bottom-section">
+        <div class="contact-me">
+          <a class="footer-link" href="https://instagram.com/i_m_impending?igshid=MzNlNGNkZWQ4Mg==">Instagram</a>
+          <a class="footer-link" href="https://twitter.com/I_M_IMPENDING?t=sLvYj2XdBFBKV_qL3LEq7A&s=09">Twitter</a>
+          <a class="footer-link" href="https://github.com/impending321/Cine-JARS">GitHub</a>
+          </div>
+          <div>
+          <p class="copyright">@Team Cine-JARS</p>
+        </div>
+      </section>
+   
+  </body>
+  <script type="module" src="write review.js"></script>
+</html>
