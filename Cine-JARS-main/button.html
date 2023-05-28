@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     body {
+  background-color: #000;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+ul li a {
+  color: white;
+  font-size: large;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+  border-radius: 4px;
+}
+
+ ul li a:hover {
+  background-color: #555;
+}
+
+    </style>
+</head>
+<body>
+
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="watchlist.html">Add Favourate Movies</a></li>
+    <li><a href="#">About Us</a></li>
+  </ul>
+</nav>
+
+</body>
+<script>
+    document.getElementById("menu-toggle").addEventListener("click", function() {
+  var menu = document.getElementById("menu");
+  
+  if (menu.style.display === "none") {
+    menu.style.display = "block";
+  } else {
+    menu.style.display = "none";
+  }
+});
+
+</script>
+</html>

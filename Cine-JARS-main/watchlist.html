@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="watchlist.css"/>
+</head>
+<body>
+    <input id="movie-input" type="text" placeholder="Enter movie title">
+<button id="add-btn">Add Movie</button>
+
+<ul id="watchlist"></ul>
+</body>
+<script>
+    document.getElementById("add-btn").addEventListener("click", function() {
+  var movieInput = document.getElementById("movie-input");
+  var movieTitle = movieInput.value.trim();
+  
+  if (movieTitle !== "") {
+    var watchlist = document.getElementById("watchlist");
+    var movieItem = document.createElement("li");
+    movieItem.textContent = movieTitle;
+    watchlist.appendChild(movieItem);
+    
+    movieInput.value = "";
+  }
+});
+
+</script>
+</html>
