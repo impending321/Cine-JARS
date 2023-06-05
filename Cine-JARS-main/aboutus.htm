@@ -1,0 +1,258 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+background-color:gray;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: navy;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: rebeccapurple;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+h3{
+    text-align: center;
+    background-color: white;
+    }
+h2{
+    text-align: center;
+    background-color: salmon;
+color:navy;
+    }
+.topnav {
+  overflow:hidden;
+background-color:white;       
+font-family:sans-serif;
+    }
+    .topnav a{
+ float:right;       
+ color:black;       
+ text-align:center;
+padding:14px 16px;
+text-decoration:none;
+font-size:17px;
+    }
+    .topnav a:hover {
+background-color:white;        
+ color:black;       
+    }
+.topnav a.active{
+color:black;
+    }
+
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: aquamarine;
+   color: black;
+   text-align: center;
+}
+
+    input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: auto; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+div.scrollmenu {
+  background-color: salmon;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: rgb(8, 8, 8);
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: darkseagreen;
+}
+    h6{
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+<div class="scrollmenu">
+  <a href="index.html">Home</a>
+  
+</div>
+<div class="about-section">
+  <h1>CineJARS</h1>
+  <p>The best part is you code with friends.</p>
+  <p>I have learnt how to make websites with friends as a TEAM.</p>
+</div>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="ansh.jpg" alt="Ansh" style="width:50%">
+      <div class="container">
+        
+        <h2>Ansh Varshney</h2>
+        <p class="title" style="text-align: center;">Leader</p>
+        <p><button class="button"><a href="mailto: varshneyans321@gmail.com" style="color: rgb(255, 255, 255); text-decoration: none;">Contact</a></button></p>
+      </div>
+    </div>
+  </div>
+
+    <div class="column">
+    <div class="card">
+      <img src="jitender.jpg" alt="Jitender" style="width:60%">
+      <div class="container">
+        <h2>Jitender Kumar</h2>
+        <p class="title" style="text-align: center;">Designer/Coder</p>
+        <p><button class="button"><a href="mailto: kumarjitender3107@gmail.com" style="color: rgb(255, 255, 255); text-decoration: none;">Contact</a></button></p>
+      </div>
+    </div>
+  </div>
+    
+    <div class="column">
+    <div class="card">
+      <img src="siddhant.jpg" alt="Siddhant" style="width:47.5%">
+      <div class="container">
+        <h2>Siddhant Shrivastav</h2>
+        <p class="title" style="text-align: center;">Designer/Coder</p>
+        <p><button class="button"><a href="mailto: 12212076@nitkkr.ac.in" style="color: rgb(255, 255, 255); text-decoration: none;">Contact</a></button></p>
+      </div>
+    </div>
+  </div>
+   <div class="column">
+    <div class="card">
+      <img src="rabindra.jpg" alt="Rabindra" style="width:55%">
+      <div class="container">
+        <h2>Rabindra Mehra</h2>
+        <p class="title" style="text-align: center;">Designer/Coder</p>
+        <p><button class="button"><a href="mailto: 12212071@nitkkr.ac.in" style="color: rgb(255, 255, 255); text-decoration: none;">Contact</a></button></p>
+      </div>
+    </div>
+  </div> 
+  <div class="column">
+    <div class="card">
+      <img src="muskan.jpg" alt="Muskan" style="width:55%; align-items: center;">
+      <div class="container">
+        <h2>Muskan</h2>
+        <p class="title" style="text-align: center;">Designer/Coder</p>
+        <p><button class="button"><a href="mailto: 12212062@nitkkr.ac.in" style="color: rgb(255, 255, 255); text-decoration: none;">Contact</a></button></p>
+      </div>
+    </div>
+  </div>
+</div>
+<h2 style="text-align:center">About us.</h2>
+<p>We are nice and friendly for those who come to our classes and we are greatful for them taking place and we encourage the parents for all of those who want to paticipate in coding class age 10-21 and above just contact us please and you will be one of us right in no time.We encourage those who are having first lessons do not be shy we are here don't worry we will give you a cheer for every good trial and you will become the best of the best.I was also shy but look at me now the best of the best.</p>
+<div class="footer">
+ <footer>
+    <h3>Copyright @2023.CineJARS. All Rights Reserved</h3>
+    </footer>  
+    </div>
+</body>
+</html>
