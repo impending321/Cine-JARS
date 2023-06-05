@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="reviewer.css" />
+    <link rel="icon" href="logo.png">
+    <title>Cine-JARS-Visitor</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="hamburger">
+        <img src="hamburger.png" alt="" />
+      </div>
+
+      <div class="search">
+        <select name="" id="" class="search-filter">
+          <option value="All" selected>All</option>
+          <option value="A-Z">A-Z</option>
+          <option value="Title">Title</option>
+          <option value="Rating">Rating</option>
+          <option value="Date">Date</option>
+          <option value="Genre">Genre</option>
+          <option value="Director">Director Name</option>
+          <option value="Actor">Actor Name</option>
+        </select>
+
+        <input
+          class="search-bar"
+          type="text"
+          placeholder="Search to read more twist in  your life"
+          name=""
+          id=""
+        />
+      </div>
+
+      <div class="nav-btns">
+        <button>Shows/Movies</button>
+        <button>Watchlist</button>
+      </div>
+    </nav>
+    <main class="visitor-main">
+    <section class="visitor-sec">
+      <div class="visitor-heading">
+        <h1>What a lovely day</h1>
+      </div>
+
+      <div class = "visitor-subheading">
+        <span>·TV Series</span> 
+        <span>·2019</span>
+        <span>·15</span>
+      </div>
+
+      <div class="visitor-row">
+        <div>
+          <img 
+          class="visitor-poster"
+            src="what a lovely day.jpg"
+            alt=""
+          />
+        </div>
+
+        <div class="visitor-row-txt">
+          <div class="visitor-tags">
+            <p>Short</p>
+            <p>Thriller</p>
+            <p>Action</p>
+          </div>
+
+          <div>
+            <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star half checked"></span>
+<span class="fa fa-star"></span>
+            <p>2.9/5</p>
+          </div>
+
+          <div class="visitor-desc">
+            <h2>Storyline</h2>
+            <p>
+                Tommy hadn't planned to hide in a trunk to escape his classmates, Harry and Irene hadn't planned to be taken hostage on the road by a bank robber and Ted hadn't planned to be wanted by the police after his theft. What a lovely day, if only they weren't all in the same car.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="visitor-creator-cast-div">
+        <div class="visitor-creator-div">
+          <p><b>Director and Writer:</b>
+            Motte dit Falisse Samuel </p>
+        </div>
+        <div class="visitor-cast-div">
+          <p><b>Starring:</b> Pauline Foeillet ,Motte dit Falisse Joaquim ,Paul Legovic ,Motte dit Falisse Samuel</p>
+        </div>
+      </div>
+
+      <div class="details">
+        <h3><u>DETAILS</u></h3>
+        <p><b>Release date :</b> November 1,2019</p>
+        <p><b>Country of Origin :</b> France</p>
+        <p><b>Language :</b>French</p>
+        <p><b>Filming locations :</b>France</p>
+      </div>
+    
+      <div class = "Crew and Cast"></div>
+      <h3><u>CREW AND CASTS</u></h3> 
+      <div class="crew-members">
+        
+        <div class = "crew-details">
+        <img class="crew-image" src="paul.jpg" height="500"></img>
+        <div class="crew-txt-details">
+          <p><b>Pauline Foeillet</b></p>
+    
+        </div>  
+      </div>
+      <div class = "crew-details">
+        <img class="crew-image" src="mote.jpg"></img>
+       
+        <div class="crew-txt-details">
+          <p><b>Motte dit Falisse Joaquim</b></p>
+        
+        </div> 
+      </div>
+      <div class = "crew-details">
+        <img class="crew-image" src="lego.jpg" height="100"></img>
+        <div class="crew-txt-details">
+          <p><b>Paul Legovic</b></p>
+          
+        </div> 
+      </div>
+      <div class = "crew-details">
+        <img class="crew-image" src="samuel.png"></img>
+        <div class="crew-txt-details">
+        <p><b>Motte dit Falisse Samuel</b></p>
+       
+      </div> 
+      </div>
+    </div>
+      <!-- reviews section complete -->
+      <main class = "Reviews">
+        <h3><u>REVIEWS</u></h3>
+
+        <div id="review-container">
+          <form id="review-form">
+            <div id="review-input-container">
+              <textarea id="review-textarea" placeholder="Write your review"></textarea>
+              <button id="send-button" type="submit"><i class="fa fa-paper-plane"></i>Submit</button>
+              <button id="edit-button" onclick="editReview()"><i class="fa fa-edit"></i></button>
+            </div>
+         
+        </div>
+
+        <div class="reviews-div">
+          <div class="reviews-rating-more">
+            <span>&#11088 3.5/5</span>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 3c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 14c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0-7c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"/></svg>
+
+          </div>
+
+          <div class="reviews-title-date">
+            <h3></h3>
+            <span>20 July 2020</span>
+          </div>
+
+          <div class="review-content">
+            <div>If you've never been trapped in the trunk of a car, held up by a criminal, or chased by the police, and if you're curious to experience it all at once, "What a lovely day" will immerse you in all three with intensity in less than 15 minutes!
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="reviews-div">
+          <div class="reviews-rating-more">
+            <span>&#11088 2.5/5</span>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 3c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 14c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0-7c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"/></svg>
+
+          </div>
+
+          <div class="reviews-title-date">
+            <h3></h3>
+            <span>1 February 2020</span>
+          </div>
+
+          <div class="review-content">
+            <div>In "What a lovely day," the viewer becomes a witness to a day where nothing goes as planned. Similar to nesting Russian dolls, each event in this story was designed to conceal another, ultimately converging at the end to create an organic narrative.
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="reviews-div">
+          <div class="reviews-rating-more">
+            <span>&#11088 3.0/5</span>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 3c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 14c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0-7c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"/></svg>
+
+          </div>
+
+          <div class="reviews-title-date">
+            <h3></h3>
+            <span>19 December 2019</span>
+          </div>
+
+          <div class="review-content">
+            <div>After a particularly talkative short film, Samuel had the desire to write a much more visual film where tension would be conveyed primarily through images rather than words. Here, each shot had to convey both information and emotion; otherwise, it wouldn't have a place in the film
+            </div>
+          </div>
+        </div>
+      </main>
+        
+      <section class="bottom-section">
+        <div class="contact-me">
+          <a class="footer-link" href="https://instagram.com/i_m_impending?igshid=MzNlNGNkZWQ4Mg==">Instagram</a>
+          <a class="footer-link" href="https://twitter.com/I_M_IMPENDING?t=sLvYj2XdBFBKV_qL3LEq7A&s=09">Twitter</a>
+          <a class="footer-link" href="https://github.com/impending321/Cine-JARS">GitHub</a>
+          </div>
+          <div>
+          <p class="copyright">@Cine-JARS</p>
+        </div>
+      </section>
+  
+      </body>
+      </html>
+        
+  </body>
+</html>
